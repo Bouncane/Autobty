@@ -1,5 +1,4 @@
-
-getgenv().SpamSkill = false
+getgenv().SpamSkill = true
 getgenv().AutoUseRaceV3 = true
 getgenv().AutoUseRacev4 = true
 getgenv().SpamSkillOnRaceV4 = true
@@ -32,8 +31,8 @@ getgenv().TweenSpeed = 300 -- 350 max or Get Tp Back
         },
         ["Gun"] = {["Enable"] = true, ["Delay"] = 2,
             ["Skills"] = {
-                ["Z"] = {["Enable"] = true,["HoldTime"] = 0.5,["TimeToNextSkill"] = 0,},
-                ["X"] = {["Enable"] = true,["HoldTime"] = 0.5,["TimeToNextSkill"] = 0,
+                ["Z"] = {["Enable"] = false,["HoldTime"] = 0.5,["TimeToNextSkill"] = 0,},
+                ["X"] = {["Enable"] = false,["HoldTime"] = 0.5,["TimeToNextSkill"] = 0,
                 },
             },
         }
