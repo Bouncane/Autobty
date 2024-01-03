@@ -5,7 +5,7 @@ _G.Setting = {
         ["Ken Haki"] = true, 
         ["Invisible"] = true, 
         ["WhiteScreen"] = false, 
-        ["FruitStuff"] = false, 
+        ["FruitStuff"] = true, 
         ["Run"] = 3600, -- As the name, you"ll run when the health below ...
         ["MaxHealth"] = 5000,
         ["Time&Bounty Counter"] = true,
@@ -82,15 +82,15 @@ _G.Setting = {
         ["Enable"] = true,
         ["Z"] = {["Enable"] = true, ["HoldTime"] = 0},
         ["X"] = {["Enable"] = true, ["HoldTime"] = 0},
-        ["C"] = {["Enable"] = true, ["HoldTime"] = 0},
-        ["V"] = {["Enable"] = false, ["HoldTime"] = 0},
-        ["F"] = {["Enable"] = true, ["HoldTime"] = 0}
+        ["C"] = {["Enable"] = false, ["HoldTime"] = 0},
+        ["V"] = {["Enable"] = true, ["HoldTime"] = 0},
+        ["F"] = {["Enable"] = false, ["HoldTime"] = 0}
     },
     ["Sword"] = {
         ["Time"] = 1,
         ["Enable"] = true,
-        ["X"] = {["Enable"] = true, ["HoldTime"] = 0},
-        ["Z"] = {["Enable"] = true, ["HoldTime"] = 0},
+        ["X"] = {["Enable"] = true, ["HoldTime"] = 0.25},
+        ["Z"] = {["Enable"] = true, ["HoldTime"] = 1.25},
     },
     ["Gun"] = {
         ["Time"] = 1.25,
